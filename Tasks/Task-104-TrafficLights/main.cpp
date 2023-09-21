@@ -9,8 +9,12 @@ DigitalOut green(TRAF_GRN1_PIN,0);
 
 LCD_16X2_DISPLAY lcd;
 
+//UOP_MSB_TEST board;
+
 int main()
 {
+    //board.test();
+
     lcd.puts("RED");
     wait_us(1000000);
 
